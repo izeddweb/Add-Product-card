@@ -15,12 +15,44 @@ body{
 .container{
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin:auto;
+  padding: 10px;
   background-color: #8c8888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* .styling-card {
+  background-color: #817a7a;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 0 20px rgb(252, 252, 252);
+  padding: 10px;
+  margin: 20px 10px;
+} */
 /* star header */
 .title{
   font-size: 40px;
   padding: 30px 0;
 }
 /* end header */
+input,button{
+  cursor: pointer;
+  font-size: large;
+  margin: 30px 10px;
+}
+input{
+  width: 200px;
+  height: 40px;
+}
+button{
+  border: none;
+  width: 50px;
+  height: 40px;
+  background-color: #747674;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
