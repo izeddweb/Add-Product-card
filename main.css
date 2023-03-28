@@ -1,0 +1,26 @@
+/*                             */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* general style */
+.container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: #8c8888;
+}
+/* star header */
+.title{
+  font-size: 40px;
+  padding: 30px 0;
+}
+/* end header */
