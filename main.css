@@ -25,6 +25,7 @@ body {
   flex-wrap: wrap;
 }
 .styling-card {
+  display: block;
   background-color: #817a7a;
   height: 200px;
   width: 200px;
